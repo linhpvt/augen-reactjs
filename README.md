@@ -29,9 +29,9 @@
 1. Research .NET core and setup working environment (Visual studio community version 2019) : 15 minutes
 
 2. Create and run dotnet console application to check out .NET Core is installed correctly:
- Using command line `dotnet new console -o ConsoleApp`.
- Using command line to run ConsoleApp successfully.
- `Spent time: 7 minutes`
+  - Using command line `dotnet new console -o ConsoleApp`.
+  - Using command line to run ConsoleApp successfully.
+  - `Spent time: 7 minutes`
 
 3. Download and install IDE - Visual Studio 2019 community Version 2019
 - Spent time: 45 minutes
