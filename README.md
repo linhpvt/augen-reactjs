@@ -79,6 +79,10 @@ Let's say, WEB API will run under https://localhost:44310/
 
 4. Start client application: `npm start` or `yarn start`.
 
+Notes:
+1. Ensure WEB API started already first.
+2. The proxy configuration points to exact the API server started successfull above.
+
 # Linh Pham Practical test END
 
 
