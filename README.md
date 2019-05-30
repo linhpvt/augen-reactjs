@@ -63,7 +63,7 @@
 
     - implement readFile function by passing a filePath argument
     - implement search with some parameters: term, pageNumber, pageSize
-    - `Spent time: 2h : 45mins`
+    - `Spent time: 2h : 15mins`
 
 9. Integrating the API with client
     - Research and add `proxy`: `https://localhost:44310/` to package.json
