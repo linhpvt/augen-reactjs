@@ -1,3 +1,85 @@
+# Linh Pham Practical test START
+
+## The repos:
+ 1. Client side: https://github.com/linhpvt/augen-reactjs, written by ReactJs, version 16.8.6 or higher
+ 2. Server side: https://github.com/linhpvt/augen-api, written by C# and WEB API. This application runs as a RESTFull API.
+
+## What i've have done
+1. Client side: A web page display contact list with paging
+2. Server side: An API allows client can search contacts by inputting the criteria.
+
+3. A contact page displays on browser with the first page by default, The cursor activated in input textbox, user can input criteria immediately.
+
+4. User can nagivate to other pages by clicking the page number of Paging Section
+
+5. User inputs criteria and then hit `enter` or `Search` button to search. A small spinner shows to indicate, the page is searching. It disappears when response arrives client.
+
+
+## Log time
+### Client side
+1. Init project: 15 minutes
+2. Adding Paging component: 20 minutes
+3. Adding TableHeader component: 25 minutes
+4. Adding TableRow component: 25 minutes
+5. Adding UniversalSearch compoment: 25 minutes
+6. Adding ContactList container: 30 minutes
+7. Implement entire Search contact page: 3 hours
+
+### Server side
+1. Research .NET core and setup working environment (Visual studio community version 2019) : 15 minutes
+
+2. Create and run dotnet console application to check out .NET Core is installed correctly:
+ - Using command line `dotnet new console -o ConsoleApp`.
+ - Using command line to run ConsoleApp successfully.
+ - Spent time: 7 minutes
+
+3. Download and install IDE - Visual Studio 2019 community Version 2019
+- Spent time: 45 minutes
+
+4. Create new WebAPI project
+- Using command line `dotnet new -o webapi` to create new webapi project.
+- Start webapi with visual studio IDE
+- Checking first APIs started successfully; access https://localhost:44310/api/values and browser displayed: ["value1","value2"]
+
+- Spent time: 10 minutes
+
+5. Adding new ContactsController to the project
+ - Adding new ContactsController
+ - Test contacts api
+ - Spent time: 7 minutes.
+ 
+6. Research getting query strings of GET mothod from webAPI
+ - Spent time: 10 minutes
+
+7. Adding necessary classes
+ - Contact class
+ - Data class
+ - ResponseContacts class
+ - Spent time: 15 minutes
+
+8. Research reading file and respond client with specific format { code, error, data: { total, result } }
+
+ - implement readFile function by passing a filePath argument
+ - implement search with some parameters: term, pageNumber, pageSize
+ - Spent time: 2h : 45mins
+
+9. Integrating the API with client
+ - Research and add `proxy`: `https://localhost:44310/` to package.json
+ - Spent time: 15 minutes
+
+## Guide to start
+1. clone code API from https://github.com/linhpvt/augen-api. Starting project by hit F5.
+Let's say, WEB API will run under https://localhost:44310/
+
+2. clone code Client from https://github.com/linhpvt/augen-reactjs. Change proxy node in package.json to `https://localhost:44310/`.
+
+3. Adding node modules, run yarn install or npm install
+
+4. Start client application, yarn start.
+
+# Linh Pham Practical test END
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
