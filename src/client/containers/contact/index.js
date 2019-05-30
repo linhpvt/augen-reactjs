@@ -56,7 +56,7 @@ const Contact = () => {
     async function fetchData() {
       try {
         setLoading('Searching data ...');
-        const url = buildReqUrl(term, currentPage);
+        const url = buildReqUrl(term, 1);
         const resp = await API.get(url, { accept: 'application/json' });
         const { code, data: { total = 0, result = [] } = {} } = resp;
         if (code === 0) {
