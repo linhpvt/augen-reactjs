@@ -24,7 +24,7 @@
 5. Adding UniversalSearch compoment: `25 minutes`
 6. Adding ContactList container: `30 minutes`
 7. Implement entire Search contact page: `3 hours`
-8. Style for the Search page for better UI/UX: `15 minutes`
+8. Basic style for the Search page for better UI/UX: `25 minutes`
 
 ### Server side
 1. Research .NET core and setup working environment (Visual studio community version 2019) 
