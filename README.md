@@ -10,7 +10,7 @@
 
 3. A contact page displays on browser with the first page by default, The cursor activated in input textbox, user can input criteria immediately.
 
-4. User can nagivate to other pages by clicking the page number of Paging Section
+4. User can nagivate to other pages by clicking the page number at Paging Section
 
 5. User inputs criteria and then hit `enter` or `Search` button to search. A small spinner shows to indicate, the page is searching. It disappears when response arrives client.
 
@@ -29,9 +29,9 @@
 1. Research .NET core and setup working environment (Visual studio community version 2019) : 15 minutes
 
 2. Create and run dotnet console application to check out .NET Core is installed correctly:
- - Using command line `dotnet new console -o ConsoleApp`.
- - Using command line to run ConsoleApp successfully.
- - Spent time: 7 minutes
+ Using command line `dotnet new console -o ConsoleApp`.
+ Using command line to run ConsoleApp successfully.
+ `Spent time: 7 minutes`
 
 3. Download and install IDE - Visual Studio 2019 community Version 2019
 - Spent time: 45 minutes
@@ -68,7 +68,7 @@
  - Spent time: 15 minutes
 
 ## Guide to start
-1. clone code API from https://github.com/linhpvt/augen-api. Starting project by hit F5.
+1. clone code API from https://github.com/linhpvt/augen-api, open project with Visual studio 2019 comminity, starting project by hit F5.
 Let's say, WEB API will run under https://localhost:44310/
 
 2. clone code Client from https://github.com/linhpvt/augen-reactjs. Change proxy node in package.json to `https://localhost:44310/`.
