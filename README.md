@@ -17,17 +17,18 @@
 ## Log time
 
 ### Client side
-1. Init project: 15 minutes
-2. Adding Paging component: 20 minutes
-3. Adding TableHeader component: 25 minutes
-4. Adding TableRow component: 25 minutes
-5. Adding UniversalSearch compoment: 25 minutes
-6. Adding ContactList container: 30 minutes
-7. Implement entire Search contact page: 3 hours
-8. Style for the Search page for better UI/UX: 15 minutes
+1. Init project: `15 minutes`
+2. Adding Paging component: `20 minutes`
+3. Adding TableHeader component: `25 minutes`
+4. Adding TableRow component: `25 minutes`
+5. Adding UniversalSearch compoment: `25 minutes`
+6. Adding ContactList container: `30 minutes`
+7. Implement entire Search contact page: `3 hours`
+8. Style for the Search page for better UI/UX: `15 minutes`
 
 ### Server side
-1. Research .NET core and setup working environment (Visual studio community version 2019) : 15 minutes
+1. Research .NET core and setup working environment (Visual studio community version 2019) 
+- `Spent time: 20 minutes`
 
 2. Create and run dotnet console application to check out .NET Core is installed correctly:
   - Using command line `dotnet new console -o ConsoleApp`.
@@ -74,9 +75,9 @@ Let's say, WEB API will run under https://localhost:44310/
 
 2. clone code Client from https://github.com/linhpvt/augen-reactjs. Change proxy node in package.json to `https://localhost:44310/`.
 
-3. Adding node modules, run yarn install or npm install
+3. Adding node modules, run `yarn install` or `npm install`
 
-4. Start client application, yarn start.
+4. Start client application: `npm start` or `yarn start`.
 
 # Linh Pham Practical test END
 
