@@ -69,6 +69,8 @@
     - Research and add `proxy`: `https://localhost:44310/` to package.json
     - `Spent time: 15 minutes`
 
+10. Enhance code and init properties of classes with default value, test the result.
+    - `Spent time: 7mins`
 ## Guide to start
 1. clone code API from https://github.com/linhpvt/augen-api, open project with Visual studio 2019 comminity, starting project by hit F5.
 Let's say, WEB API will run under https://localhost:44310/
