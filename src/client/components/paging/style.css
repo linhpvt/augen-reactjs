@@ -1,0 +1,17 @@
+.paging {
+    background-color: #3498db;
+}
+.paging * {
+    display: inline-block;
+    padding: 2px 10px;
+    background-color: #999797;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+}
+
+.paging .current-page {
+    cursor: none;
+    background-color: #803030;
+}

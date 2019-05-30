@@ -1,0 +1,24 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8em;
+  background-color: #e2f8fa;
+}
+td, th {
+  border: 1px solid white;
+  padding-left: 10px;
+}
+
+th {
+  height: 50px;
+  text-align: left;
+  background-color: #3498db;
+  color: white;
+}
+td {
+  height: 25px;
+}
+.header {
+  padding: 5px;
+  float: left;
+}

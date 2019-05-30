@@ -1,0 +1,9 @@
+/* .universal-search {
+} */
+.universal-search form input {
+  padding: 5px;
+  border-radius: 4px;
+}
+.universal-search form input[type="submit"] {
+  cursor: pointer;
+}
